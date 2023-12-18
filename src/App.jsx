@@ -32,7 +32,7 @@ function IntroSection() {
         techupth.com
       </a>
       <div className="bootcamp-start-time">
-        วันเวลาเริ่มหลักสูตร คือ {new Date().getDate()}
+        วันเวลาเริ่มหลักสูตร คือ {getCurrentDateTime()}
       </div>
     </div>
   );
